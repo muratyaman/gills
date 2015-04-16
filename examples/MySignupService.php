@@ -24,11 +24,10 @@ class MySignupService
 
             //now, do something with filtered inputs
 
-        } catch (FilterException $exf) {
-            //$this->response->appendError($exf->getMessage());
+        } catch (FilterException $fex) {
+            
         } catch (\Exception $ex) {
-            //error_log(__METHOD__ . ' Error: ' . $ex->getMessage());
-            //$this->response->appendError('Unexpected error');
+            
         }
     }
 
@@ -45,9 +44,9 @@ class MySignupService
         $rules = $this->getRules();
 
         $data = (array) $inputs;
-        //error_log(__METHOD__ . ' filtering data: ' . json_encode($data));
+        
         foreach ($rules as $field => $filters) {
-            //error_log(__METHOD__ . ' filtering ' . $field);
+            
             if (! array_key_exists($field, $data)) continue;//skip
 
             try {
