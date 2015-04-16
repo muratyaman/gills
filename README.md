@@ -3,48 +3,47 @@ Gills PHP Filter Library
 
 Here is the initial list of filters:
 
-ArrayFilter
-BoolFilter
-BooleanFilter
-ClosureFilter
-CustomBooleanFilter
-DateFilter
-DefaultFilter
-DigitsFilter
-DoubleFilter
-EmailFilter
-FloatFilter
-InFilter
-InNonStrictFilter
-IntFilter
-IntegerArrayFilter
-IntegerArrayInFilter
-IntegerFilter
-JsonDecodeFilter
-JsonEncodeFilter
-LettersFilter
-LowerCaseFilter
-MatchFilter
-MatchMultiFilter
-NilToNullFilter
-NumberRangeFilter
-PdoReferenceFilter
-PdoUniqueFilter
-RequiredFilter
-SafePasswordFilter
-SafeStringFilter
-SerializeFilter
-StringArrayFilter
-StringArrayInFilter
-StringCompareFilter
-StringFilter
-StringHtmlFilter
-StringSizeFilter
-StringSizeFixedFilter
-StringSizeInFilter
-TrimFilter
-UnserializeFilter
-UpperCaseFilter
-UrlFilter
-UuidFilter
-
+* ArrayFilter
+* BoolFilter
+* BooleanFilter
+* ClosureFilter
+* CustomBooleanFilter
+* DateFilter
+* DefaultFilter
+* DigitsFilter
+* DoubleFilter
+* EmailFilter
+* FloatFilter
+* InFilter
+* InNonStrictFilter
+* IntFilter
+* IntegerArrayFilter
+* IntegerArrayInFilter
+* IntegerFilter
+* JsonDecodeFilter
+* JsonEncodeFilter
+* LettersFilter
+* LowerCaseFilter
+* MatchFilter
+* MatchMultiFilter
+* NilToNullFilter
+* NumberRangeFilter
+* PdoReferenceFilter
+* PdoUniqueFilter
+* RequiredFilter
+* SafePasswordFilter
+* SafeStringFilter
+* SerializeFilter
+* StringArrayFilter
+* StringArrayInFilter
+* StringCompareFilter
+* StringFilter
+* StringHtmlFilter
+* StringSizeFilter
+* StringSizeFixedFilter
+* StringSizeInFilter
+* TrimFilter
+* UnserializeFilter
+* UpperCaseFilter
+* UrlFilter
+* UuidFilter
