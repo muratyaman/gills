@@ -1,6 +1,8 @@
 # gills
 Gills PHP Filter Library
 
+Main aim is to make it easier to validate, sanitize, transform the inputs, esp. from users, before the actual process.
+
 Here is the initial list of filters:
 
 * ArrayFilter
