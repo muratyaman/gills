@@ -1,0 +1,27 @@
+{
+    "name": "muratyaman/gills",
+    "type": "library",
+    "description": "Gills PHP Filter Library",
+    "keywords": [],
+    "homepage": "https://github.com/muratyaman/gills",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Haci Murat Yaman",
+            "email": "haci@muratyaman.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-0": { "Gills\\": "" }
+    },
+    "target-dir": "gills",
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "master"
+        }
+    }
+}
