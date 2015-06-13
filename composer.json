@@ -15,13 +15,13 @@
         "php": ">=5.5.0"
     },
     "autoload": {
-        "psr-0": { "Gills\\": "" }
+        "psr-4": { "Gills\\": "Gills/" }
     },
     "target-dir": "gills",
     "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
-            "dev-master": "master"
+            "dev-master": "master-dev"
         }
     }
 }
