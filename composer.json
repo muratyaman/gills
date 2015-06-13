@@ -15,7 +15,7 @@
         "php": ">=5.5.0"
     },
     "autoload": {
-        "psr-4": { "Gills\\": "Gills/" }
+        "psr-0": { "Gills\\": "Gills/" }
     },
     "target-dir": "gills",
     "minimum-stability": "dev",
