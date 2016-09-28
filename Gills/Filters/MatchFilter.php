@@ -29,7 +29,7 @@ class MatchFilter implements FilterInterface
         $matches = array();
         $result = preg_match($this->_pattern, $value, $matches);
         if (!$result) {
-            throw new wud_filterexception(sprintf('Value did not match pattern "%s"', $this->_pattern));
+            throw new FilterException(sprintf('Value did not match pattern "%s"', $this->_pattern));
         }
         
         return $value;
